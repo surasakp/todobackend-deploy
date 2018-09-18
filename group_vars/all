@@ -1,0 +1,10 @@
+---
+vpc_id: vpc-b13b6ed6
+subnet_id: subnet-758da23c
+ec2_keypair: admin
+instance_count: 2
+db_subnets:
+  - subnet-758da23c
+  - subnet-a9714cce
+db_availability_zone: ap-southeast-2b
+db_username: postgres
